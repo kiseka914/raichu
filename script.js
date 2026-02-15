@@ -36,7 +36,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   // CA Copier logic
   const caCopier = document.getElementById("ca-copier");
-  const FULL_CA = "0xa4f0b302cb34e51324e927bd7cdd9abb234cf523";
+  const FULL_CA = "0x57c5ba26f96cc06597f4a33f74a36427f51d3025";
 
   caCopier.addEventListener("click", () => {
     navigator.clipboard.writeText(FULL_CA).then(() => {
